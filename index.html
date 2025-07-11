@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohan's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+ <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>hi1st</h1>
+  <h1>Welcome to My Portfolio</h1>
+
+  <div class="div1 fade-in">
+    <div class="text">
+      <h4>Hi, I'm <span style="color:#e91e63; font-weight:bold;">Mohan</span></h4>
+      <h4>I am backend and Fronted web developer</h4>
+        </div>
+    <div>
+      <img src="./mohan.jpg" alt="Mohan's Photo" />
+    </div>
+  </div>
+
+  <div class="div2" data-aos="fade-right">
+    <img src="./orion.jpg" alt="About Me" />
+    <div id="m1">
+      <h2>About</h2>
+      <p>Hi, I'm Mohan, a postgraduate student currently pursuing MCA at Dr. Lankapalli Bullayya College, Visakhapatnam. I have a strong interest in backend and web development, and I am skilled in Python, HTML, CSS, and JavaScript. I am actively building projects to strengthen my skills and am looking for opportunities to begin my career in software development.</p>
+    </div>
+  </div>
+
+  <h1>Skills</h1>
+  <div class="div3" data-aos="fade-up">
+    <div><img src="./python.jpg" alt="Python" /><h4>Python</h4></div>
+    <div><img src="./html.jpg" alt="HTML" /><h4>HTML</h4></div>
+    <div><img src="./css.jpg" alt="CSS" /><h4>CSS</h4></div>
+    <div><img src="./js.jpg" alt="JavaScript" /><h4>JavaScript</h4></div>
+  </div>
+
+  <h1>Projects</h1>
+  <div class="div4" data-aos="fade-left">
+    <div><img src="./bank.jpg" alt="Bank Management System" /><h5>Bank Management System</h5></div>
+    <div><img src="./train.jpg" alt="Railway Reservation" /><h5>Railway Ticket Reservation</h5></div>
+    <div><img src="./portfolio.jpg" alt="Portfolio Project" /><h5>Portfolio Website</h5></div>
+  </div>
+
+  <div id="m12">
+    <h2>You can check out my projects here</h2>
+    <a href="https://github.com/MOHANVEN" target="_blank">https://github.com/MOHANVEN</a>
+  </div>
+
+  <h2 style="text-align:center;margin-top:60px;">Drop a message</h2>
+  <div class="div5" data-aos="fade-up">
+    <form action="https://formspree.io/f/mvgrnbaj" method="POST">
+      <table>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="number">Number:</label></td>
+          <td><input type="tel" name="number" required /></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center;">
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
